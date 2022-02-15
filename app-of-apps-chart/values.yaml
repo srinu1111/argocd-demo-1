@@ -11,7 +11,7 @@ clusters:
       branch: HEAD
 
 - name: gke
-  destinationServer: #INSERT MASTERIP HERE
+  destinationServer: https://34.68.112.194
   apps:
     prometheus:
       enabled: true
