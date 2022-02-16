@@ -19,7 +19,7 @@ clusters:
     sampleApp:
       enabled: true
       branch: HEAD
-- name: gke
+- name: gke-prod
   destinationServer: https://35.222.92.169
   apps:
     prometheus:
